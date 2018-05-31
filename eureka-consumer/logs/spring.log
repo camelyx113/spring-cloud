@@ -1,0 +1,114 @@
+2018-05-31 09:34:23.287 all 4344 --- [main] com.consumer.EurekaConsumerApplication   : No active profile set, falling back to default profiles: default
+2018-05-31 09:34:23.318 all 4344 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29a5f4e7: startup date [Thu May 31 09:34:23 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@16293aa2
+2018-05-31 09:34:23.951 all 4344 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=23ced9ca-d456-33a4-a433-523a7984ea75
+2018-05-31 09:34:23.965 all 4344 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 09:34:24.059 all 4344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46187350] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 09:34:24.309 all 4344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2018-05-31 09:34:24.324 all 4344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-31 09:34:24.324 all 4344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-31 09:34:24.340 all 4344 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\softwareDevoloper\java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/softwareDevoloper/java/jdk1.8.0_131/bin/../jre/bin/server;D:/softwareDevoloper/java/jdk1.8.0_131/bin/../jre/bin;D:/softwareDevoloper/java/jdk1.8.0_131/bin/../jre/lib/amd64;D:\softwareDevoloper\java\jdk1.8\jdk1.8.0_131\bin;D:\softwareDevoloper\apache-maven-3.5.0\bin;D:\softwareDevoloper\spring-roo-2.0.0.RC2\bin;E:\p4workyx\nodejs\;D:\JIQUN\nginx\redis64-3.0.501;D:\softwareDevoloper\gradle-4.0.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Perforce;E:\p4workyx\nodejs\;D:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Users\Administrator\AppData\Roaming\npm;D:\softwareDevoloper\spring-tool-suite\sts-3.8.4.RELEASE;;.]
+2018-05-31 09:34:24.449 all 4344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-31 09:34:24.449 all 4344 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1131 ms
+2018-05-31 09:34:24.590 all 4344 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-31 09:34:24.605 all 4344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-31 09:34:24.605 all 4344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-31 09:34:24.605 all 4344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-31 09:34:24.605 all 4344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-31 09:34:24.715 all 4344 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-31 09:34:24.715 all 4344 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 09:34:24.715 all 4344 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-31 09:34:24.715 all 4344 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 09:34:24.855 all 4344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 09:34:25.137 all 4344 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29a5f4e7: startup date [Thu May 31 09:34:23 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@16293aa2
+2018-05-31 09:34:25.187 all 4344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/],methods=[GET]}" onto public java.lang.String com.consumer.controller.HelloController.hello(java.lang.String)
+2018-05-31 09:34:25.187 all 4344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-31 09:34:25.187 all 4344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-31 09:34:25.218 all 4344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 09:34:25.218 all 4344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 09:34:25.999 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-31 09:34:25.999 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-31 09:34:25.999 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-31 09:34:25.999 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-31 09:34:25.999 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-31 09:34:26.015 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-31 09:34:26.030 all 4344 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=29a5f4e7,type=ConfigurationPropertiesRebinder]
+2018-05-31 09:34:26.030 all 4344 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-05-31 09:34:26.046 all 4344 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-05-31 09:34:26.077 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-31 09:34:26.546 all 4344 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-31 09:34:26.556 all 4344 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-31 09:34:26.668 all 4344 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-31 09:34:26.668 all 4344 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-31 09:34:26.855 all 4344 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-05-31 09:34:26.949 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-05-31 09:34:27.136 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-05-31 09:34:27.152 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2018-05-31 09:34:27.152 all 4344 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527730467152 with initial instances count: 2
+2018-05-31 09:34:27.152 all 4344 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application eureka-consumer with eureka with status UP
+2018-05-31 09:34:27.199 all 4344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2018-05-31 09:34:27.199 all 4344 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2018-05-31 09:34:27.214 all 4344 --- [main] com.consumer.EurekaConsumerApplication   : Started EurekaConsumerApplication in 5.128 seconds (JVM running for 5.811)
+2018-05-31 09:34:40.762 all 4344 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-31 09:34:40.762 all 4344 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-31 09:34:40.783 all 4344 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-05-31 09:35:04.548 all 4344 --- [http-nio-9000-exec-4] s.c.a.AnnotationConfigApplicationContext : Refreshing SpringClientFactory-eureka-producer: startup date [Thu May 31 09:35:04 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29a5f4e7
+2018-05-31 09:35:04.620 all 4344 --- [http-nio-9000-exec-4] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 09:35:04.901 all 4344 --- [http-nio-9000-exec-4] c.netflix.config.ChainedDynamicProperty  : Flipping property: eureka-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-05-31 09:35:04.923 all 4344 --- [http-nio-9000-exec-4] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-producer
+2018-05-31 09:35:04.947 all 4344 --- [http-nio-9000-exec-4] c.netflix.loadbalancer.BaseLoadBalancer  : Client: eureka-producer instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-producer,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-05-31 09:35:04.954 all 4344 --- [http-nio-9000-exec-4] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2018-05-31 09:35:04.978 all 4344 --- [http-nio-9000-exec-4] c.netflix.config.ChainedDynamicProperty  : Flipping property: eureka-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-05-31 09:35:04.980 all 4344 --- [http-nio-9000-exec-4] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client eureka-producer initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-producer,current list of Servers=[PP-20160817ZQ:8001, PP-20160817ZQ:8002],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:PP-20160817ZQ:8002;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:PP-20160817ZQ:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@286b5e3
+2018-05-31 09:35:05.958 all 4344 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: eureka-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-05-31 09:35:19.837 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-31 09:35:19.850 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29a5f4e7: startup date [Thu May 31 09:34:23 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@16293aa2
+2018-05-31 09:35:19.851 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application eureka-consumer with eureka with status DOWN
+2018-05-31 09:35:19.851 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-05-31 09:35:19.851 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] s.c.a.AnnotationConfigApplicationContext : Closing SpringClientFactory-eureka-producer: startup date [Thu May 31 09:35:04 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29a5f4e7
+2018-05-31 09:35:19.851 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-eureka-producer
+2018-05-31 09:35:19.851 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-31 09:35:19.867 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-31 09:35:19.867 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-31 09:35:19.867 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-31 09:35:20.008 all 4344 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-05-31 09:35:20.008 all 4344 --- [localhost-startStop-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-05-31 09:35:20.070 all 4344 --- [localhost-startStop-2] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+2018-05-31 09:35:20.070 all 4344 --- [localhost-startStop-2] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+2018-05-31 09:35:20.070 all 4344 --- [localhost-startStop-2] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+2018-05-31 09:35:20.101 all 4344 --- [Thread-10] c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater
