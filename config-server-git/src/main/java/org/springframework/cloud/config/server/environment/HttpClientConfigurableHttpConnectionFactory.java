@@ -68,7 +68,8 @@ public class HttpClientConfigurableHttpConnectionFactory implements Configurable
         HttpClientBuilder builder = httpClientsByUri.get(spec);
         while (builder == null) {
         	//此处在window环境中 File.separator截取数组越界
-            spec = spec.substring(0, spec.lastIndexOf(File.separator));
+            //spec = spec.substring(0, spec.lastIndexOf(File.separator));
+        	spec = spec.substring(0, spec.lastIndexOf("/"));
             System.out.println("截取后 spec ===" + spec);
             builder = httpClientsByUri.get(spec);
         }

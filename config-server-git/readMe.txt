@@ -8,4 +8,7 @@
 		spring.cloud.config.server.git.search-paths=config-repo
 		spring.cloud.config.server.git.username=camelyx113
 		spring.cloud.config.server.git.password=yin123q1
+		
+2.增加配置服务高可用，配置服务也要注册到注册中心,增加配置
+eureka.client.service-url.defaultZone=http://localhost:7000/eureka/		
 	
