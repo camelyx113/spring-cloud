@@ -4,3 +4,5 @@
 	
 http://localhost:13000/info 返回具体参数
 http://localhost:13000/actuator/refresh 属性修改后参数数据
+
+2.配置服务增加高可用，客户端从注册中心获取数据，增加配置
